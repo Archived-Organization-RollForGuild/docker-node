@@ -1,3 +1,3 @@
 FROM node:9-alpine
 
-RUN apk --no-cache add rsync yarn
+RUN apk --no-cache add yarn rsync ca-certificates openssl
